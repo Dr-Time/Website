@@ -5,7 +5,7 @@ function App() {
   return (
     <div id="App">
       <div id="heading">
-        <img className="item" id="logo" src="{logo}" alt="cmpy-logo"></img>
+        <img className="item" id="logo" src={logo} alt="cmpy-logo"></img>
         <h1 className="item title">Dr. Time</h1>
         <div id="timer">
         <div id="a"></div>
@@ -14,7 +14,7 @@ function App() {
       </div>
       <div className ="main">
         <div id="img-container">
-          <img id="big-logo"src="{logo}" alt="big-logo"></img>
+          <img id="big-logo"src={logo} alt="big-logo"></img>
         </div>
         <p className="com">Coming in 2021</p>
         <h2 className="title med">Medicine Reimagined</h2>
