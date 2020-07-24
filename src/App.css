@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+
+#timer{
+  background-color: #b0e7f2;
+    float: right;
+    margin-top: 16px;
+    margin-right: 16px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    box-shadow: 0px 10px 10px -10px grey inset;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.ss{
+  margin: 0px;
+  font-size: small;
+  font-weight: 500;
+  text-align: center;
+  color: #318bde;
+
+}
+
+.item{
+  display:inline-block;
+}
+
+.title{
+  color: #318bde;
+  top: -40px;
+  left: -5px;
+  margin: 8px;
+  padding-bottom: 0px;
+  position: relative;
+  font-weight: 600;
+
+}
+
+.main{
+  text-align: -webkit-center;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 50px;
+  height: 100%;
+  background-color: #b0e7f2;
+  display: flow-root;
+
+}
+
+#img-container{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: scale-down;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0px 10px 10px -10px grey;
+}
+
+#big-logo{
+  padding: 20px;
+  text-align: center;
+  min-height: 30px;
+  max-height: 150px;
+}
+
+.com{
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+}
+
+.med{
+  font-size: x-large;
+  top: -20px;
+  left: 5px;
+  text-align: center;
+
+}
+
+.line{
+  font-size: large;
+  font-weight: 600;
+  margin-top: -15px;
+  text-align: center;
+}
+
+#social{
+  float: left;
+  font-weight: 600;
+  font-size: inherit;
+  box-shadow: 0px 10px 10px -10px grey inset;
+  background-color: white;
+  border-radius: 30px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.st{
+  text-align: center;
+  padding: 20px;
+}
+
+.b{
+  color: #318bde;
+}
+
+.container {
+  position: relative;
+  width: auto;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100px auto;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+.footer{
+  text-align: center;
+  font-weight: 500;
+}
+
+#logo{
+  width:100px;
+  height:100px;
+  align-items: center;
+}
