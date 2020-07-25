@@ -1,7 +1,7 @@
 {
   "name": "webdrtime",
   "version": "0.1.0",
-  "homepage": "http://drtime.app/",
+  "homepage": "https://drtime.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
