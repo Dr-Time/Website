@@ -30,6 +30,7 @@
 }
 
 .title{
+  font-size: clamp(1rem,6vw,3rem);
   color: #318bde;
   top: -40px;
   left: -5px;
@@ -44,7 +45,7 @@
   text-align: -webkit-center;
   border-radius: 25px;
   padding: 10px;
-  margin: 50px;
+  margin: -7px 10px;
   height: 100%;
   background-color: #b0e7f2;
   display: flow-root;
@@ -147,7 +148,8 @@
 }
 
 #logo{
-  width:100px;
-  height:100px;
+  max-width: 100px;
+  width:auto;
+  height:auto;
   align-items: center;
 }
