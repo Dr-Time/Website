@@ -17,7 +17,7 @@ function App() {
           <img id="big-logo"src={logo} alt="big-logo"></img>
         </div>
         <p className="com">Coming in 2021</p>
-        <h2 className="title med">Medicine Reimagined</h2>
+        <h2 className="med">Medicine Reimagined</h2>
         <div className="t1">
         
           <p className="line">On your wrist, at your desk, in your pocket</p>
